@@ -1,0 +1,34 @@
+.home-style{
+    background-color: #24353F;
+    height: 100vh;
+    position: relative;
+}
+.message{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); 
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding-block: 65px;
+    color: #fff;
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); 
+    width: 100% !important;
+}
+.nav-caption{
+    display: flex;
+}
+.nav-logo a{
+    display: inline-block;
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+.nav-logout button{
+    margin: 20px 50px;
+}
